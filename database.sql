@@ -3,6 +3,7 @@
 
 -- Create a database called "famous_people"
 
+-- 
 CREATE TABLE people (
 	id SERIAL PRIMARY KEY,
 	name varchar(255),
@@ -10,4 +11,8 @@ CREATE TABLE people (
 );
 
 INSERT INTO "people" ("name", "role") 
-VALUES ('Catherine O''Hara', 'Moira Rose'), ('Eugene Levy', 'Johnny Rose'), ('Dan Levy', 'David Rose'), ('Annie Murphy', 'Alexis Rose');
+VALUES 
+('Catherine O''Hara', 'Moira Rose'), 
+('Eugene Levy', 'Johnny Rose'), 
+('Dan Levy', 'David Rose'), 
+('Annie Murphy', 'Alexis Rose');
